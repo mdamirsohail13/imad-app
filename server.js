@@ -22,11 +22,11 @@ app.get('/graduation-details.html', function (req, res) {
 });
 
 app.get('/higher-secondary-details.html', function (req, res) {
-  res.send('my graduation details');
+  res.send('my Higher Secondary details');
 });
 
 app.get('/secondary-details.html', function (req, res) {
-  res.send('my graduation details');
+  res.send('my secondary details');
 });
 
 // Do not change port, otherwise your app won't run on IMAD servers
