@@ -22,7 +22,7 @@ app.get('/graduation-details.html', function (req, res) {
 });
 
 app.get('/higher-secondary-details.html', function (req, res) {
-  res.send('my Higher Secondary details');
+  res.sendFile(path.join(__dirname, 'ui', 'graduation-details.html'));
 });
 
 app.get('/secondary-details.html', function (req, res) {
