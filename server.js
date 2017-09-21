@@ -18,11 +18,11 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/graduation-details.html', function (req, res) {
-  res.send('my graduation details');
+  res.sendFile(path.join(__dirname, 'ui', 'graduation-details.html'));
 });
 
 app.get('/higher-secondary-details.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'graduation-details.html'));
+  res.send('my Higher Secondary details');
 });
 
 app.get('/secondary-details.html', function (req, res) {
