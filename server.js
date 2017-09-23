@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'amir.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'amir_new.jpg'));
 });
 
 app.get('/graduation-details.html', function (req, res) {
